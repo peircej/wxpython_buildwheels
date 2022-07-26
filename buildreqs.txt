@@ -1,0 +1,22 @@
+# Python packages needed for building and testing wxPython Phoenix
+numpy
+six
+pillow
+appdirs
+setuptools
+sip == 6.6.2
+
+wheel
+twine
+requests
+requests[security]
+cython==0.29.24
+pytest
+pytest-xdist
+pytest-forked
+pytest-timeout
+
+Jinja2==2.10
+doc2dash==2.3.0
+beautifulsoup4
+attrdict3
