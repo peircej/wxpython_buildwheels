@@ -4,7 +4,7 @@ six
 pillow
 appdirs
 setuptools
-sip==5.5.0
+sip==6.6.2
 
 wheel
 twine
