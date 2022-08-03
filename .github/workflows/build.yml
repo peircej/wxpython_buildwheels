@@ -33,7 +33,7 @@ jobs:
       - name: Build wheel
         run: |
           git submodule update --init --recursive
-          cp install_depends.sh Phoenix/install_depends.sh
+          cp *.sh Phoenix/
           cp buildreqs.txt Phoenix/buildreqs.txt
           cd Phoenix
           python -m cibuildwheel --output-dir ../dist
